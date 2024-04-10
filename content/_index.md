@@ -39,26 +39,19 @@ sections:
             brightness: 0.4
   - block: markdown
     content:
-      title: Con grande gioia vi annunciamo il nostro matrimonio
-      text: "Vi invitiamo a unirvi a noi per una cerimonia speciale il giorno 3 Agosto 2024 alle ore 17.30 presso il" 
-    design: 
-      css_class: "main-text no-bottom-padding"
-  - block: markdown
-    content:
-      text: "Parco dei Cimini" 
-    design: 
-      css_class: "main-text no-top-padding location centered no-bottom-padding"
-  - block: markdown
-    content:
-      text: "Bio Resort" 
-    design: 
-      css_class: "main-text no-top-padding location-subtitle centered no-bottom-padding"
-  - block: markdown
-    content:
-      text: Il rito nel bosco sarà seguito da ricevimento e festeggiamenti nella stessa location.
-    design: 
-      css_class: "main-text no-top-padding no-bottom-padding" 
-
+      title: | 
+        Con grande gioia vi annunciamo il nostro matrimonio
+        {.main-text}
+      text: |
+        > Vi invitiamo a unirvi a noi per una cerimonia speciale il giorno 3 Agosto 2024 alle ore 17.30 presso il 
+        {.main-text}
+        > Parco dei Cimini
+        {.location}
+        > Bio Resort
+        {.location-subtitle}
+        {.main-text .no-top-padding .location .centered .no-bottom-padding}
+        > Il rito nel bosco sarà seguito da ricevimento e festeggiamenti nella stessa location. 
+        {.main-text}
 
   # - block: stats
   #   content:

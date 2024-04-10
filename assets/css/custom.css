@@ -61,11 +61,15 @@
 }
 
 .main-text {
+    p {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        text-align: center;
+    }
+
     .max-w-prose {
         max-width: 75ch;
         text-align: center;
-        padding-left: 0.5em;
-        padding-right: 0.5em;
     }
 
 }
@@ -73,7 +77,8 @@
 .font-bold {
     /* font-family: "Cormorant Garamond"; */
     font-family: 'Mulish';
-    font-size: 2em;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 p {
