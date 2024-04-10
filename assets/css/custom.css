@@ -10,7 +10,20 @@
 
     p {
         font-size: 3em;
-        font-family: 'Mulish'
+        font-family: 'Mulish';
+        text-align: center;
+        margin: auto;
+    }
+
+    @media screen and (max-width: 450px) {
+        h1.font-bold {
+            font-size: 5em;
+            padding-bottom: 0.5em;
+        }
+
+        p {
+            font-size: 1.5em;
+        }
     }
 }
 
@@ -29,8 +42,6 @@
         font-weight: 500;
         text-align: center;
     }
-
-
 }
 
 .location#section-markdown {
@@ -41,28 +52,28 @@
     p {
         font-size: 2em;
         font-family: "Mulish";
-        text-align: center top;
-        text-align: justify;
-
+        text-align: center;
     }
 
-    /* 
     div {
         max-height: 2cm;
-    } */
+    }
 }
 
 .main-text {
     .max-w-prose {
         max-width: 75ch;
+        text-align: center;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
     }
+
 }
 
 .font-bold {
     /* font-family: "Cormorant Garamond"; */
     font-family: 'Mulish';
     font-size: 2em;
-
 }
 
 p {
