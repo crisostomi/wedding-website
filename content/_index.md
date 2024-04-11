@@ -31,7 +31,7 @@ sections:
         Con grande gioia vi annunciamo il nostro matrimonio
         {.main-text}
       text: |
-        > Vi invitiamo a unirvi a noi per una cerimonia speciale il giorno 3 Agosto 2024 alle ore 17.30 presso il 
+        > Vi invitiamo a unirvi a noi per una cerimonia speciale il giorno 3 Agosto 2024 alle ore 17.30 presso
         {.main-text}
         > Parco dei Cimini
         {.location}
