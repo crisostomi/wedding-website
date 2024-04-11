@@ -40,21 +40,8 @@ sections:
         {.main-text .no-top-padding .location .centered .no-bottom-padding}
         > Il rito nel bosco sarà seguito da ricevimento e festeggiamenti nella stessa location. 
         {.main-text}
-  - block: hero
-    design:
-      spacing:
-        padding: [0, 0, 0, 0]
-        margin: [0, 0, 0, 0]
-      # For full-screen, add `min-h-screen` below
-      css_class: "dark titleheader"
-      background:
-      
-        color: "navy"
-        image:
-          # Add your image background to `assets/media/`.
-          filename: leaves.jpg
-          parallax: true
-          position: top
+        ![](leaves-small.png "")
+
     # image_size: cover
     # text_color_light: true
   # - block: stats
