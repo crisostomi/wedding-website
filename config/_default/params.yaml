@@ -6,10 +6,10 @@
 # Appearance
 appearance:
   mode: light
-  color: indigo
+  # color: indigo
   
-font: Rose
-font_size: XL
+# font: Rose
+# font_size: XL
 
 # SEO
 marketing:

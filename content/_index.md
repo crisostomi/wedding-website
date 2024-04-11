@@ -12,18 +12,6 @@ sections:
     content:
       title: Donato e Jovita
       text: 3 Agosto 2024
-      # primary_action:
-      #   text: Get Started
-      #   url: https://hugoblox.com/templates/
-      #   icon: rocket-launch
-      # secondary_action:
-      #   text: Read the docs
-      #   url: https://docs.hugoblox.com
-      # announcement:
-      #   text: "Announcing the release of version 1."
-      #   link:
-      #     text: "Read more"
-      #     url: "/blog/" 
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -52,7 +40,23 @@ sections:
         {.main-text .no-top-padding .location .centered .no-bottom-padding}
         > Il rito nel bosco sarà seguito da ricevimento e festeggiamenti nella stessa location. 
         {.main-text}
-
+  - block: hero
+    design:
+      spacing:
+        padding: [0, 0, 0, 0]
+        margin: [0, 0, 0, 0]
+      # For full-screen, add `min-h-screen` below
+      css_class: "dark titleheader"
+      background:
+      
+        color: "navy"
+        image:
+          # Add your image background to `assets/media/`.
+          filename: leaves.jpg
+          parallax: true
+          position: top
+    # image_size: cover
+    # text_color_light: true
   # - block: stats
   #   content:
   #     items:
