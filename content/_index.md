@@ -39,10 +39,9 @@ sections:
         {.location-subtitle}
         {.main-text .no-top-padding .location .centered .no-bottom-padding}
         > Il rito nel bosco sarà seguito da ricevimento e festeggiamenti nella stessa location. 
-        > 
-        > Scarica il [menù](uploads/menu.pdf).
         {.main-text}
         ![](leaves-small.png "")
+        > Scarica il [menù](uploads/menu.pdf).
 
     # image_size: cover
     # text_color_light: true
